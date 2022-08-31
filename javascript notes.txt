@@ -1,0 +1,10 @@
+Web me client side programming language hy 
+variable bnany k 3 trike hein
+var,const,let
+
+datatypes
+
+numbers,objects,strings,booleans,undefined,null
+
+call back funxtions:
+wo funxtion jo tab execute hota hy jab koi aik kaam already hogya ho.

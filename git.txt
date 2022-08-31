@@ -1,0 +1,83 @@
+Git --> Distributed version control.(open source software)
+GitHub --> Code hosting service
+BitBucket, GitLab also provides code hosting services using git.
+
+1. git status --> 
+
+2. git init -->  khali repository ko git repository bnany k liye.
+
+3. git add . --> is se sari ki sari files stage ho jati hein.
+
+4. git commit -m "version1" -- > changes ko save krny k liye
+
+5. git log --> change ko dekhny k liye command hota hy ye.
+
+6. git config --global  --> name and email change krny k liye  
+
+7. git config --global user.name "Malik Awais"
+
+ How to write commit messages:
+
+"fixes login bug"
+"change method to post" 
+
+should be explained at code level.
+
+8. git remote add origin git@github.com:MalikAwais8/React-Internship.git
+
+9. git push -u origin master
+10. git pull -u origin master
+
+11. git diff filename.ext --> 2 files k beech ka diference
+
+12. git diff --staged filename.ext
+
+13. git reset filename.ext
+
+14. git checkout filename.txt
+
+15. git checkout .  -->purane commit tk wps jany k liye sab files ko aik sath
+
+16. git add -A --> Sari ki sari files ko stage kr dega
+
+17. git add . new and modified , without delete
+
+18. git add -u --> new files stage ni hongy
+
+19. ls -la
+
+20. git clone git@github.com:mukrm/react-course.git -->folder bny ga
+
+21. git clone git@github.com:mukrm/react-course.git . -->folder k bgair ayegi repository
+
+22. touch .gitignore --> .gitignore naam ki blank file bn jyegi
+
+23. notepad .gitignore
+
+24. octocat -->isme dekh lo kon c files generally log .gitignore me dalty hein. (ignoring files --> git help)
+
+branching
+
+by default brannch master hoti hy
+ap kuch change krna chahty ho lekin apko darr lag raha hy k sahi hoga ya ni baki qubool kriengy ya ni so ap branching 
+k concept ko use krty ho
+
+25. git branch --> branches dekhny k liye
+
+26. git branch branchname -- > new branch add k liye
+
+27. git checkout newbranchname -- switch krny k liye
+
+Git merging
+merge krny se phly master me switch krna hy
+
+28. git merge newbranchname
+
+deleting local
+
+29. git branch -d new
+
+deleting remote
+
+30. git push origin --delete new 
+ 

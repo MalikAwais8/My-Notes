@@ -1,0 +1,53 @@
+Single page applications ko bnany wali js library hy. it is a UI Library
+Maintained through Facebook.
+Single Page Applications are those that are loaded once.
+All the other work done through javascript like navugate from one page to another.
+
+kam se kam javascript likhien gy or code organize rhy ga.
+Write once use it everywhere.
+
+create react App:
+It is a package that setup a basic react App.
+
+npm:
+Ye ik package manager hy.
+node js me packages install krny me madad krta hy.
+
+React k components ko src k andr daala jata hy.
+
+entry point:
+
+src -->index.js
+
+App.js --> Component
+
+Components could be function based
+or class based.
+https://www.codewithharry.com/blogpost/html-cheatsheet/
+
+https://www.codewithharry.com/blogpost/css-cheatsheet/
+
+https://www.codewithharry.com/blogpost/javascript-cheatsheet/
+
+jsx ==> it is HTML which masks Js
+unified form me sari cheezien aik jgha rhiengi to wo sab se axha user experience rhy ga.
+class ki jgha className likhna prta hy ku k class java script me reserve key word hy.
+react prefers camelCase.
+react k andr ap agr jsx use kr rhy ho to apko srf aik hi tag return karna hy.
+<>  </> ==> jsx fragment ==> return wale tag se phly agr likhna hy kch to ye use krna pry ga.
+
+how a website works:
+client ==> request --- awais.com ----> Server 
+         < --------HTML+CSS +JS     <----Server
+
+SPA:
+client ==> request --- awais.com ----> Server 
+         < --------HTML+CSS +JS     <----Server
+iske baad phr js control kry gi website ko  k ab jhn jhn click ho to kya ho.
+
+public folder:
+publicaly available hingi ye files jab ap build kriengy apni is app ko.
+
+
+
+
